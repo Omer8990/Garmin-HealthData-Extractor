@@ -1,11 +1,6 @@
 # 🧬 Biological ETL Pipeline
 
-A high-signal health data extraction pipeline that acts as a "Bio-Twin" for AI agents. Inspired by leading health optimization protocols from:
-
-- **Bryan Johnson** (Blueprint/HRV nervous system health)
-- **Andrew Huberman** (Sleep architecture/Circadian rhythm)
-- **Peter Attia** (Zone 2/Metabolic health)
-
+A high-signal health data extraction pipeline for AI agents.
 ## Overview
 
 This pipeline ingests raw Garmin Connect data, applies expert-level biomarker filtering, and outputs a rich, hierarchical JSON context file (`daily_bio_context.json`) designed to provide maximum context with zero noise for AI agent consumption.
@@ -227,9 +222,3 @@ This pipeline is designed as a **feature store for AI**. Every metric includes:
 - Trend slopes to show direction
 - Pre-calculated status flags to reduce AI hallucination
 
-## Acknowledgments
-
-Protocol inspiration from:
-- Bryan Johnson's Blueprint Protocol
-- Andrew Huberman's Huberman Lab Podcast
-- Peter Attia's The Drive Podcast
